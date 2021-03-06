@@ -1,0 +1,57 @@
+<html>
+ <head>
+ <title>Login Form</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+   div{border: 2.5px solid;
+       border-radius: 15px;
+       width: 260px;
+       height: 270px;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+       position: absolute;
+       box-sizing: border-box;
+       border-color: black;
+       background-color: azure;
+       }
+   h2{text-align: center;
+      color: green;
+       }
+   label{margin-left: 10px;
+         color: black;
+         font-size: 20px;
+         font-family: cursive;
+         }
+   .loginbox input[type="submit"]
+         {width:50px;
+         height: 20px;
+         margin-left: 170px;
+         border-radius: 10px;
+         background-color: green;
+         color: white;
+         }
+   .loginbox input[type="text"], input[type="password"]
+         {width:200px;
+         height: 25px;
+         margin: 15px;
+         border-radius: 10px;
+         font-size: 13.5px;
+         text-align: center;
+         
+         }
+   </style>
+ </head>
+  <body>
+   <div class="loginbox">
+   <form>
+   <h2>LOGIN</h2>
+   <label>Username:</label>
+   <input type="text" placeholder="Enter Username"><br>
+   <label>Password:</label>
+   <input type="password" placeholder="Enter Password"><br>
+   <input type="submit" value="submit">
+   </form>
+   </div>
+  </body>
+</html>
